@@ -59,16 +59,28 @@ div#test {
 
 /* header */
 
+* {
+    box-sizing: border-box;
+}
 
 header {
     position: fixed;
     width: 100%;
-    background-color: aqua;
-    /* z-index: 10; */
+    z-index: 10;
+    background-color: #fff;
 }
 
 div {
     display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
 }
 
 .header-title {
@@ -184,4 +196,63 @@ div {
 .txtm {
     font-size: 20px;
     font-weight: 600;
+}
+
+.conversion {
+    background-color: #ebb94b;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 90%;
+}
+
+.conversionbtn {
+    cursor: pointer;
+    padding: 30px 120px;
+    background-color: #da6b64;
+    border-radius: 50px;
+    color: #fff;
+    margin: 45px auto;
+    max-width: 1028px;
+}
+
+/* introduction */
+
+.introduction {
+    background-image: url(images/introbottom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 587px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.yellowbracketswide {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+
+}
+
+.contents {
+    padding: 40px 0;
+}
+
+.contents p {
+    margin-bottom: 2.4rem;
+    font-weight: 300;
+}
+
+.underline {
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
 }
