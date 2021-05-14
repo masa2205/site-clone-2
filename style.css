@@ -309,3 +309,57 @@ code {
     padding: 10px;
     display: inline-block;
 }
+
+/* aboutsecond */
+
+.aboutsecond {
+    background-image: url(images/aboutsecondbg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.aboutsecond h2 {
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.aboutsecond p {
+    color: #fff;
+
+}
+
+.yellowtxt {
+    color: #ebb94d;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.sidebox {
+    padding: 30px 30px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 30%;
+    margin: 0 20px 20px !important;
+    position: relative;
+    left: 35%;
+}
+
+.step {
+    background-color: #ebb94d;
+    border-radius: 5px;
+}
+
+.sidecontents .txtxs {
+    margin: 30px 0 15px;
+}
+
+.sidecontents p {
+    color: #000000;
+    font-weight: 600;
+}
