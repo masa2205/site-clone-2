@@ -363,3 +363,45 @@ code {
     color: #000000;
     font-weight: 600;
 }
+
+/* aboutthird */
+
+.aboutthird {
+    background-color: #016ea9;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* learning */
+
+.learning {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.learning .txtl {
+    margin-bottom: 35px;
+}
+
+.learning .txtm {
+    font-weight: 300;
+}
+
+.learning .container {
+    padding: 0;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 40px auto;
+}
+
+.learningbox {
+    padding: 20px;
+
+}
+
+.col-xs-3 {
+    width: 40%;
+    display: inline-block;
+}
+
