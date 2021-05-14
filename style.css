@@ -256,3 +256,56 @@ code {
     font-weight: bold;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
 }
+
+/* about */
+
+.about {
+    padding: 0 0 40px 0;
+    background-color: #fef5e0;
+    text-align: center;
+}
+
+.abouticon {
+    position: relative;
+    top: -40px;
+}
+
+.circle1 {
+    background-color: #ebb94d;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.yellowbracketsnarrow {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 30px;
+}
+
+.abouttitle p {
+    margin-top: 40px;
+}
+
+.aboutbox {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+
+.box {
+    padding: 10px;
+    display: inline-block;
+}
