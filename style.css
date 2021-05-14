@@ -83,6 +83,10 @@ p {
     margin: 0 0 10px;
 }
 
+b {
+    font-weight: bold;
+}
+
 .header-title {
     width: 1170px;
     max-width: calc(100% - 20px);
@@ -333,7 +337,7 @@ code {
 
 .yellowtxt {
     color: #ebb94d;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .container {
@@ -405,3 +409,57 @@ code {
     display: inline-block;
 }
 
+/* merit */
+
+.merit {
+    padding: 30px 50px;
+    text-align: center;
+    background-color: #fef5e0;
+}
+
+.merit .container {
+    margin-top: 40px;
+}
+
+.learnbox {
+    margin-bottom: 20px;
+}
+
+.learnfromfreelance {
+    background-image: url(images/learnfromfreelancer.jpg);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.learndetail {
+    padding: 0 20px;
+}
+
+.learnfromprojects {
+    background-image: url(images/learnfromprojects.jpg);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.actuallyfree{
+    background-image: url(images/actuallyfree.jpg);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.support {
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px ;
+    margin: 40px auto;
+    padding: 40px 20px;
+}
